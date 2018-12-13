@@ -14,13 +14,13 @@ class SearchBar extends React.Component {
       <div className="search-bar ui segment">
         <form onSubmit={this.onFormSubmit} className="ui form">
           <div className="field">
-            <label>Video Search:</label>
             <img
+              alt="search"
               style={{
                 position: "absolute",
                 right: "1%",
                 width: "30px",
-                top: "42%"
+                top: "15%"
               }}
               src="https://cdn1.iconfinder.com/data/icons/hawcons/32/698627-icon-111-search-512.png"
             />
