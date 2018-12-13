@@ -15,6 +15,7 @@ class SearchBar extends React.Component {
         <form  onSubmit={this.onFormSubmit} className="ui form">
           <div className="field">
             <label>Video Search:</label>
+            <img style={{ position: "absolute", right: "1%", width: "30px", top: "42%"}} src="https://cdn1.iconfinder.com/data/icons/hawcons/32/698627-icon-111-search-512.png"/>
             <input
               value={this.state.term}
               onChange={(event) => this.setState({ term: event.target.value }) }
