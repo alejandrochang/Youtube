@@ -34,6 +34,11 @@ class App extends React.Component {
   render() {
     return (
       <div className="ui container">
+        <img
+          alt="youtube"
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/YouTube_Logo_2017.svg/2000px-YouTube_Logo_2017.svg.png"
+          style={{ width: "9%", left: "7%", top: "4%", position: "absolute" }}
+        />
         <SearchBar onTermSubmit={this.onTermSubmit} />
         <div className="ui grid">
           <div className="ui row">
