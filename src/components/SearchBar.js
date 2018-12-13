@@ -11,7 +11,14 @@ class SearchBar extends React.Component {
 
   render() {
     return (
-      <div className="search-bar ui segment">
+      <div
+        className="search-bar ui segment"
+        style={{
+          marginTop: "1%",
+          maxWidth: "55%",
+          left: "13% "
+        }}
+      >
         <form onSubmit={this.onFormSubmit} className="ui form">
           <div className="field">
             <img
